@@ -1,2 +1,4 @@
-package TortoiseAndHare;public enum HareMove {
+package TortoiseAndHare;
+
+public enum HareMove {
 }

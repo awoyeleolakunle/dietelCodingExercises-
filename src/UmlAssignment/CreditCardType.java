@@ -1,2 +1,8 @@
-package UmlAssignment;public enum CreditCardType {
+package UmlAssignment;
+
+public enum CreditCardType {
+    MASTERCARD,
+    VISACARD,
+    VERVE,
+    AMERICANEXPRESS;
 }

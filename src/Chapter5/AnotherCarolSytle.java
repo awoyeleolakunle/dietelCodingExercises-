@@ -11,8 +11,8 @@ public class AnotherCarolSytle {
             int counter = 1;
 
             for (; counter <= 12; counter++) {
-                System.out.println("press any number for the Christmas song");
-                int userInput = input.nextInt();
+                //System.out.println("press any number for the Christmas song");
+                //int userInput = input.nextInt();
                 switch (counter ) {
                     case 12:
                         Day = "Twelfth";
@@ -65,7 +65,7 @@ public class AnotherCarolSytle {
                         break;
 
                 }
-                song = Chorus + " " + song;
+                song = Chorus + song;
                 System.out.println("On the " + Day + "day" + " of Christmas, my true love sent to me\n" + song);
             }
         }

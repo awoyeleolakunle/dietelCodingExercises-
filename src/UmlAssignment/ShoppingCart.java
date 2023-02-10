@@ -1,2 +1,5 @@
-package UmlAssignment;public class ShoppingCart {
+package UmlAssignment;
+
+public class ShoppingCart {
+    private Items []items;
 }

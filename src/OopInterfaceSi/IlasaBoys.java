@@ -1,2 +1,4 @@
-package OopInterfaceSi;public class IlasaBoys {
-}
+package OopInterfaceSi;
+
+//public class IlasaBoys extends  Boyfriend{
+//}

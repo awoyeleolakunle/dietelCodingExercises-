@@ -1,2 +1,4 @@
-package OopInterfaceSi;public interface Boyfriend {
+package OopInterfaceSi;
+
+public interface Boyfriend {
 }

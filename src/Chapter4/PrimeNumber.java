@@ -5,23 +5,18 @@ import java.util.Scanner;
 public class PrimeNumber {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int count = 0;
+        int count = 1;
         int factor = 0;
         System.out.println("enter a number ");
         int userInput = input.nextInt();
 
-        while (count < userInput) {
+        while (count <= userInput) {
             if (userInput % count == 0) {
                 factor += 1;
             }
+            count+=1;
         }
-        if (factor == 2) {
+        System.out.printf( " has %d factors %n ", factor);
 
-            System.out.println(factor + "is a prime number");
-        }
-        else {
-            System.out.println(factor + "is not a prime number");
-
-        }
     }
 }

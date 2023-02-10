@@ -5,15 +5,17 @@ import Practices.BinarySearchArray;
 import java.util.Scanner;
 
 public class searchingElementInIndexArray {
+    private static Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
         // int [][] array = {{1,2,3},{4,5,6},{7,8,9}};
         //for (int i = 0; i <3 ; i++) {
         //  for (int j = 0; j <3; j++) {
         //     System.out.print(array [i][j]+"");
 
-        //   }
+        //}
         // System.out.println();
-        // }
+        //}
         Scanner scanner = new Scanner(System.in);
         BinarySearchArray obi = new BinarySearchArray();
         int[] arr = new int[5];
@@ -29,7 +31,9 @@ public class searchingElementInIndexArray {
             System.out.println(" element not present ");
         } else {
             System.out.println("Element " + number + " found at index " + result);
+
         }
     }
 }
+
 

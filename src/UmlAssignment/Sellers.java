@@ -1,4 +1,4 @@
 package UmlAssignment;
 
-public class Seller  extends Users{
+public class Sellers extends Users{
 }

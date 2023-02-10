@@ -1,2 +1,8 @@
-package UmlAssignment;public enum ProductCategory {
+package UmlAssignment;
+
+public enum ProductCategory {
+    ELECTRONICS,
+    GROCERIES,
+    UTENSILS,
+    CLOTHING;
 }

@@ -1,2 +1,4 @@
-package TortoiseAndHare;public class Pail {
+package TortoiseAndHare;
+
+public class Pail {
 }

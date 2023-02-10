@@ -2,7 +2,7 @@ package Chapter6;
 
 import java.util.Scanner;
 
-public class PerfectNumber {
+public class SumOfDigit {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" Enter a number you want to sum up each digit");

@@ -3,7 +3,7 @@ package Chapter7;
 public class PrimeNumbersMethod {
     public static void main(String[] args) {
 
-        showPrimeNumber(10000);
+        showPrimeNumber(100);
         //primeNumber(7);
 
     }

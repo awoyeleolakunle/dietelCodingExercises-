@@ -46,6 +46,7 @@ public boolean getedeyoff(){
     }
 
     public void settemperature(int degree) {
+        degree = 16;
         temperature = degree;
 
 

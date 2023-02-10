@@ -1,2 +1,4 @@
-package UmlAssignment;public class Admin {
+package UmlAssignment;
+
+public class Admin  extends Users{
 }
