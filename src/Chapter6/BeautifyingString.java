@@ -7,15 +7,15 @@ import java.util.Locale;
 
 public class BeautifyingString {
     public static void main(String[] args) {
-        String beautifiedWord = showBeautifiedWord("myLove");
+        String beautifiedWord = showBeautifiedWord("jerry");
         System.out.println(beautifiedWord);
     }
 
     private static String beautifyString(String word) {
         for (int i = word.length(); i > 0; i -= word.length() - 1) {
-            char newWord = word.charAt(i - 1);
+            char newWord = word.charAt(i-1);
             if (newWord != '.')
-                word = word + ".";
+                word += ".";
         }
         return word;
     }
