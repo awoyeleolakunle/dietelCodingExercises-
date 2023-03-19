@@ -10,7 +10,6 @@ public class Diary {
         Entry newEntry = new Entry(title, body, id);
         entries.add(newEntry);
     }
-
     public int getEntryNumber() {
         return entries.size();
     }
