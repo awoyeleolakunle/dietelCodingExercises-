@@ -20,7 +20,7 @@ public class TicTacToeGame {
     }
 
     public static void registerPlayer(String playerName, int index) {
-        players[index] = new Player(playerName);
+            players[index] = new Player(playerName);
     }
 
     public static void makeBoardEmpty() {
@@ -39,7 +39,6 @@ public class TicTacToeGame {
         players[Player.getCurrentPlayer()].setColumnPosition(column);
 
         setBoard();
-
         players[getCurrentPlayer()].adjustCurrentPlayer();
 
     }
@@ -72,7 +71,7 @@ public class TicTacToeGame {
     }
 
     public static int getCurrentPlayer() {
-        return currentPlayer;
+        return Player.getCurrentPlayer();
     }
     public static boolean isWon(){
         return isWon;
@@ -81,11 +80,9 @@ public class TicTacToeGame {
     public static boolean winningPosition1() {
         if (boards[0][0].equals(X.getSymbol()) && boards[0][1].equals(X.getSymbol()) && boards[0][2].equals(X.getSymbol())) {
             isWon = true;
-
         }
         if (boards[0][0].equals(O.getSymbol()) && boards[0][1].equals(O.getSymbol()) && boards[0][2].equals(O.getSymbol())) {
             isWon = true;
-
         }
         return isWon();
     }
@@ -110,7 +107,7 @@ public class TicTacToeGame {
             isWon = true;
         if (boards[1][0].equals(O.getSymbol()) && boards[1][1].equals(O.getSymbol()) && boards[1][2].equals(O.getSymbol()))
                 isWon = true;
-return isWon();
+        return isWon();
 
     }
     public static boolean winningPosition5(){
@@ -142,13 +139,14 @@ return isWon();
             isWon = true;
         return isWon();
     }
-    public static void congratulationMessage(){
-        System.out.println(players[currentPlayer].getPlayerName() + " You won");
-    }
-    public static String getPlayerName(){
 
+    public static String getPlayerName(){
         return players[getCurrentPlayer()].getPlayerName();
 
+    }
+    public static void congratulationMessage(){
+        players[getCurrentPlayer()].adjustCurrentPlayer();
+        System.out.println(  "Congratulations "+ players[getCurrentPlayer()].getPlayerName()  + " You won");
     }
 }
 

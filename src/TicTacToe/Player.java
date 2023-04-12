@@ -75,4 +75,12 @@ public class Player {
     public int getColumnPosition() {
         return columnPosition;
     }
+
+   // @Override
+//    public String toString() {
+//        return "Player{" +
+//                "playerName='" + playerName + '\'' +
+//                 "PlayerNumber" + getCurrentPlayer()+
+//    '}';
+//    }
 }

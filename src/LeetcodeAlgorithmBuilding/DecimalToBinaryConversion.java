@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class DecimalToBinaryConversion {
 
     public static void main(String[] args) {
-        decimalToBinaryConversion(42);
+        decimalToBinaryConversion(325);
 
     }
 

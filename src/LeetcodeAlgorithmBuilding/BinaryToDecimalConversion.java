@@ -2,7 +2,7 @@ package LeetcodeAlgorithmBuilding;
 
 public class BinaryToDecimalConversion {
     public static void main(String[] args) {
-        int result = binaryToDecimalConversion("101010");
+        int result = binaryToDecimalConversion("101000101");
         System.out.println(result);
     }
 

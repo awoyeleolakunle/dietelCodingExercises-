@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArrayOfLenghtOfEvenNumbers {
     public static void main(String[] args) {
-        int[] array = new int[10];
+        int[] array = new int[20];
         int number = 2;
         for (int index = 0; index < array.length; index ++) {
                 array[index] = number;
